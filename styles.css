@@ -78,6 +78,26 @@ body::before {
     color: rgba(200, 247, 255, 0.75);
 }
 
+.hct-experiment-link {
+    margin-top: 8px;
+    color: rgba(200, 247, 255, 0.72);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-decoration-color: rgba(200, 247, 255, 0.38);
+    text-underline-offset: 3px;
+}
+
+.hct-experiment-link:hover {
+    color: #e8faff;
+    text-decoration-color: currentColor;
+}
+
+.hct-experiment-link:focus-visible {
+    border-radius: 3px;
+    outline: 2px solid #4a9dfd;
+    outline-offset: 4px;
+}
+
 /* ---------- Shell ---------- */
 .hct-scene {
     perspective: 1000px;

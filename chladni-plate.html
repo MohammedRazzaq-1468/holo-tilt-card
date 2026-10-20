@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090b13">
+    <title>Chladni Plate — Aurora Shard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="components/chladni-plate/chladni-plate.css">
+    <script type="module" src="components/chladni-plate/chladni-plate.js"></script>
+</head>
+<body>
+    <main class="cpl-wrap" data-chladni-plate>
+        <div class="cpl-root">
+            <div class="cpl-stage" tabindex="0" role="img" aria-label="Chladni Plate. A plate flexing in perspective with sand collecting where it stands still. Drag to spin, or use the arrow keys to rotate." aria-keyshortcuts="ArrowLeft ArrowRight ArrowUp ArrowDown" aria-describedby="cpl-hint">
+                <canvas class="cpl-canvas" aria-hidden="true"></canvas>
+                <div class="cpl-mode" aria-hidden="true">3 . 4</div>
+            </div>
+            <div class="cpl-hint" id="cpl-hint">Drag to spin<span class="cpl-sr-only">. Use the arrow keys to rotate.</span></div>
+        </div>
+    </main>
+</body>
+</html>
